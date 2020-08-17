@@ -1,5 +1,7 @@
 package JavaLoops;
 
+import java.text.NumberFormat;
+import java.util.Locale;
 import java.util.Scanner;
 
 public class JavaDatatypes {
@@ -18,11 +20,13 @@ public class JavaDatatypes {
                 System.out.println(x+" can be fitted in:");
                 if(x>=-128 && x<=127)System.out.println("* byte");
                 //Complete the code
+
             }
             catch(Exception e)
             {
                 System.out.println(sc.next()+" can't be fitted anywhere.");
             }
+
 
         }
     }
