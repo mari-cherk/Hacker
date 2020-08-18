@@ -1,4 +1,4 @@
-package JavaStringTokens;
+package JavaString;
 
 import java.util.Arrays;
 import java.util.Scanner;
